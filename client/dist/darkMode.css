@@ -1,10 +1,9 @@
 body {
-  color: #222;
-  background: cornsilk;
+  color: #eee;
+  background: #2e2a2a;
   padding: 0 25px;
   font-family: sans-serif;
 }
-
 a {
   color: rgb(60, 150, 202);
 }
@@ -43,22 +42,16 @@ h3 {
 
 .searchInput {
   font-size: 15px;
-  background: cornsilk;
+  background: rgb(245, 246, 247);
   width: 90%;
   height: 40px;
   box-sizing: border-box;
   border: none;
   border-bottom: 2px solid;
 }
-
 h4 {
   text-align: center;
 }
-
-h5 {
-  font-size: 15px;
-}
-
 .mongo {
   padding: 10px;
   padding-top: 0px;
@@ -86,10 +79,10 @@ h5 {
 
 .detail {
   text-align: left;
-  font-family:sans-serif;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
   font-size: 14px;
   overflow: auto;
-  border-bottom: black 1px solid;
+  border-bottom: white 1px solid;
 }
 .syntax:hover {
   font-weight: bold;
@@ -121,6 +114,7 @@ h5 {
   50% { border-color: rgb(60, 150, 202);}
 }
 
+
 .example {
   grid-column-start: 2;
   grid-column-end: 4;
@@ -133,13 +127,14 @@ h5 {
   margin: 0;
 }
 .mongoButton {
+  color: white;
   float: right;
   align-items: left;
   grid-column: 2;
   grid-row: 5;
   height: 25px;
   width: 150px;
-  background-color: white;
+  background-color: black;
   margin: 10px;
   font-size: 15px;
   border-radius: 10px;
@@ -147,11 +142,12 @@ h5 {
   font-weight : bold;
 }
 .sqlButton {
+  color: white;
   grid-column: 3;
   grid-row: 5;
   height: 25px;
   width: 150px;
-  background-color: white;
+  background-color: black;
   margin: 10px;
   font-size: 15px;
   border-radius: 10px;
@@ -189,7 +185,6 @@ h5 {
   border: 2px solid;
   border-color: whitesmoke;
 }
-
 .content {
   text-align: left;
   font-family:Verdana, Geneva, Tahoma, sans-serif;
@@ -212,4 +207,3 @@ h5 {
   grid-row: 6;
   grid-column: 1;
 }
-

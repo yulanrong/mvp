@@ -2,8 +2,22 @@
 <html>
   <head>
     <title>MongoDB SQL Playground</title>
+    <link href="style.css" rel="stylesheet" id="lightmode">
+    <script src="https://use.fontawesome.com/692af27225.js"></script>
+    <script>
+      function toggleTheme() {
+            var theme = document.getElementsByTagName('link')[0];
+            if (theme.getAttribute('href') == 'style.css') {
+                theme.setAttribute('href', 'darkMode.css');
+            } else {
+                theme.setAttribute('href', 'style.css');
+            }
+        }
+    </script>
   </head>
   <body>
+    <button style="float: right; border: none; cursor: pointer; font-size: 20px;" onclick="toggleTheme()"><i class="fa fa-sun-o" aria-hidden="true"></i> <i class="fa fa-toggle-on" aria-hidden="true"></i> <i class="fa fa-moon-o" aria-hidden="true"></i></button>
+    <script src="./clipboard.min.js"></script>
     <div id="app"></div>
     <script type="text/javascript" src="bundle.js"></script>
   </body>
