@@ -39,6 +39,7 @@ const App = () => {
     <div className="wrapper">
       <div className="title">
       <h1>Mongo SQL Playground</h1>
+      <iframe src="https://giphy.com/embed/hlepzob42lUP1npEyG" width="150" height="84" frameBorder="0" class="giphy-embed"></iframe>
       <p className="subtitle">Have Fun with MongoDB and SQL syntax Here! <i class="fa fa-smile-o" aria-hidden="true"></i> </p>
       </div>
       <Search handleChange={handleChange} handleSearch={handleSearch} />

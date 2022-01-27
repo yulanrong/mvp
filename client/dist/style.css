@@ -10,7 +10,7 @@ a {
 }
 
 .wrapper {
-  padding: 2em 10em 5em 10em;
+  padding: 0em 10em 5em 10em;
   display: inline-grid;
   grid-column-gap: 50px;
   grid-row-gap: 20px;
@@ -18,8 +18,18 @@ a {
 .title {
   font-family: "Gill Sans", sans-serif;
   grid-column-start: 1;
+  grid-row-end: 2;
   grid-row: 1;
   align-items: left;
+  padding-bottom: 0;
+}
+
+.giphy-embed {
+  grid-row: 1;
+  grid-column: 3;
+  display: block;
+  padding-top: 0;
+
 }
 .subtitle {
   font-family: monospace;
