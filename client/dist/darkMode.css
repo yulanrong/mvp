@@ -17,9 +17,20 @@ a {
 .title {
   font-family: "Gill Sans", sans-serif;
   grid-column-start: 1;
+  grid-row-end: 2;
   grid-row: 1;
   align-items: left;
+  padding-bottom: 0;
 }
+
+.giphy-embed {
+  grid-row: 1;
+  grid-column: 3;
+  display: block;
+  padding-top: 0;
+
+}
+
 .subtitle {
   font-family: monospace;
   font-style: italic;
@@ -53,6 +64,7 @@ h4 {
   text-align: center;
 }
 .mongo {
+  background-color: black;
   padding: 10px;
   padding-top: 0px;
   margin-bottom: 20px;
@@ -65,6 +77,7 @@ h4 {
   border: rgb(60, 150, 202) 2px solid;
 }
 .sql {
+  background-color: black;
   padding: 10px;
   padding-top: 0px;
   margin-bottom: 20px;
@@ -84,12 +97,15 @@ h4 {
   overflow: auto;
   border-bottom: white 1px solid;
 }
+
 .syntax:hover {
+  color: rgb(60, 150, 202);
   font-weight: bold;
   cursor: pointer;
   overflow-wrap: break-word;
 }
 .syntax {
+  font-weight: bold;
   padding-bottom: 5px;
   margin-top: 10px;
   margin-bottom: 10px;
@@ -170,7 +186,7 @@ h4 {
 
 .modal {
   border-radius: 10px;
-  background-color: rgb(47, 124, 168);
+  background-color: black;
   color: white;
   position: fixed;
   text-align: center;
@@ -183,7 +199,7 @@ h4 {
   overflow: auto;
   white-space: pre-wrap;
   border: 2px solid;
-  border-color: whitesmoke;
+  border-color: rgb(47, 124, 168);
 }
 .content {
   text-align: left;

@@ -102,11 +102,13 @@ h5 {
   border-bottom: black 1px solid;
 }
 .syntax:hover {
+  color: rgb(60, 150, 202);
   font-weight: bold;
   cursor: pointer;
   overflow-wrap: break-word;
 }
 .syntax {
+  font-weight: bold;
   padding-bottom: 5px;
   margin-top: 10px;
   margin-bottom: 10px;
