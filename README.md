@@ -18,19 +18,26 @@ Once the project moves into development, the press release can be used as a touc
 
 ## MongoDB SQL Playground ##
 
-## A website  ##
+> ### A website that you can explore and compare the syntax between MongoDB and SQL ###
 
-## Summary ##
-  > Give a summary of the product and the benefit. Assume the reader will not read anything else so make this paragraph good.
+# Demo #
 
-## Problem ##
-  > Describe the problem your product solves.
+> ![demo-gif](./client/dist/demo.gif)
 
-## Solution ##
-  > Describe how your product elegantly solves the problem.
+# How to Get Started #
+> - npm run react-dev: run the webpack
+> - npm start: run the server
 
-## How to Get Started ##
-  > Describe how easy it is to get started.
+# Technologies #
+> - React
+> - Node.js
+> - JavaScript
+> - Axios
+> - Express
+> - CSS
+> - HTML
+> - Babel
+> - Webpack
+> - Fontawesome
+> - Mysql
 
-## Closing and Call to Action ##
-  > Wrap it up and give pointers where the reader should go next.
